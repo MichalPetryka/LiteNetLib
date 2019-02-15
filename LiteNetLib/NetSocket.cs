@@ -162,7 +162,7 @@ namespace LiteNetLib
             }
             catch
             {
-                Console.WriteLine("IL2CPP SetSocketOption error");
+                NetDebug.WriteError("IL2CPP SetSocketOption error");
             }
             if (socket.AddressFamily == AddressFamily.InterNetwork)
             {
